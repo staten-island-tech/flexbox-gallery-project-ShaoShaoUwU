@@ -13,12 +13,13 @@ html,
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        
     }
 
     .card-image {
-        width: 10%;
-        height: 10%;
-        f
+        width: 70%;
+        height: 70%;
+        
     }
 
     .card-title {
