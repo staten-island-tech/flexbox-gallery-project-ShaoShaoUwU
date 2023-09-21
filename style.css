@@ -1,35 +1,35 @@
 body,
 html,
-* {
-    font-size: 10px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-    
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-    .card {
-        width: 27%;
-        height: 30%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        border: 10px solid pink;
-        margin: 10% 0;
-        
-    }
+.card {
+    width: 30%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 10px solid pink;
+    margin: 20% 0;
+    padding: 0%;
+}
 
-    .card-image {
-        width: 70%;
-        height: 70%;
-        border: 10px solid palegreen;
-    }
+.card-image {
+    width: 70%;
+    height: 70%;
+    border: 10px solid palegreen;
+}
 
-    .card-title {
-        font-size: 2.2rem;
-    }
-    .card-price {
-        font-size: 1.5rem;
-    }
+.card-title {
+    font-size: 2.2rem;
+}
+
+.card-price {
+    font-size: 1.5rem;
+}
