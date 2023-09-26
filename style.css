@@ -4,9 +4,22 @@ html,
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    background-color: #A09B8C;
 }
-
+.Title{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C89B3C;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    font-family: 'Bad Script', cursive;
+    
+}
 .container {
     display: flex;
     justify-content: space-around;
@@ -14,29 +27,33 @@ html,
 }
 
 .card {
-    width: 17%;
+    width: 23%;
     height: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    border: 10px solid pink;
-    margin: 2% 3%;
-    padding: 0%;
+    justify-content: space-around;
+    border: 10px solid #C8AA6E;
+    margin-bottom: 1.5rem;
+    padding: 3px;
+    background-color: #C89B3C;
 }
 
 .card-image {
     width: 70%;
     height: 70%;
-    border: 10px solid palegreen;
+    border: 10px solid #C8AA6E;
+    background-color: #C89B3C;
 }
 
 .card-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-family: 'Bad Script', cursive;
+    background-color: #C89B3C;
 }
 
 .card-price {
     font-size: 1.5rem;
     font-family: 'Bad Script', cursive;
+    background-color: #C89B3C;
 }
