@@ -33,8 +33,10 @@ html,
 
 .card-title {
     font-size: 2.2rem;
+    font-family: 'Bad Script', cursive;
 }
 
 .card-price {
     font-size: 1.5rem;
+    font-family: 'Bad Script', cursive;
 }
