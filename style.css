@@ -7,6 +7,7 @@ html,
     background-color: #A09B8C;
 }
 .Title{
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     background-color: #C89B3C;
@@ -47,13 +48,13 @@ html,
 }
 
 .card-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Bad Script', cursive;
     background-color: #C89B3C;
 }
 
 .card-price {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: 'Bad Script', cursive;
     background-color: #C89B3C;
 }
