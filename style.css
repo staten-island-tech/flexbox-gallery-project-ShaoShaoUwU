@@ -31,7 +31,7 @@ html,
 
 .card {
     width: 23%;
-    height: 40vh;
+    height: 31vh;
     display: flex;
     flex-direction: column;
     align-items: center;
