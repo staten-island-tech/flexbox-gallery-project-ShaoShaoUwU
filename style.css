@@ -41,6 +41,8 @@ html,
     padding: 3px;
     background-color: #C89B3C;
     box-shadow: 10px 7px 10px #785A28;
+    
+   
 }
 
 .card-image {
@@ -48,16 +50,31 @@ html,
     height: 70%;
     border: 10px solid #C8AA6E;
     background-color: #C89B3C;
+    transition: all .3s;
 }
 
 .card-title {
     font-size: 1.3rem;
     font-family: 'Bad Script', cursive;
     background-color: #C89B3C;
+    transition: all .3s;
+
 }
 
 .card-price {
     font-size: 1.1rem;
     font-family: 'Bad Script', cursive;
     background-color: #C89B3C;
+    transition: all .3s;
+
+}
+
+.card-image:hover{
+    transform: scale(1.5);
+}
+.card-title:hover{
+    transform: scale(1.2);
+}
+.card-price:hover{
+    transform: scale(1.2);
 }
