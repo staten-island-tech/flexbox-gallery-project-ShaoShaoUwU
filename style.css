@@ -4,7 +4,7 @@ html,
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #A09B8C;
+    background-color: #3C3C41;
 }
 .Title{
     margin-top: 20px;
@@ -19,6 +19,8 @@ html,
     margin-bottom: 20px;
     justify-content: space-around;
     font-family: 'Bad Script', cursive;
+    border: 10px solid #C8AA6E;
+    box-shadow: 10px 7px 10px #785A28;
     
 }
 .container {
@@ -38,6 +40,7 @@ html,
     margin-bottom: 1.5rem;
     padding: 3px;
     background-color: #C89B3C;
+    box-shadow: 10px 7px 10px #785A28;
 }
 
 .card-image {
