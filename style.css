@@ -43,7 +43,7 @@ html,
     box-shadow: 10px 7px 10px #785A28;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 844px){
     .card{
         width: 100%;
     }
@@ -54,6 +54,7 @@ html,
     border: 10px solid #C8AA6E;
     background-color: #C89B3C;
     transition: all .3s;
+    filter: grayscale(100%);
 }
 
 .card-title {
@@ -74,6 +75,7 @@ html,
 
 .card-image:hover{
     transform: scale(1.5);
+    filter: grayscale(0);
 }
 .card-title:hover{
     transform: scale(1.2);
